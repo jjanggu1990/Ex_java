@@ -145,7 +145,14 @@ class _004OperEx {
 		
 		s += (a>b) ? ((a-b)+"만큼 a가 크다") : ((b-a)+"만큼 b가 크다") ;
 		System.out.println(s);
-				
+		
+		//?가 두개 이상 일 경우 마지막 : 기준으로 나눔
+		s ="";
+		s += 
+				++a >= b ?
+						a == b ? "a와 b가 같다." : (a-b) + "만큼 a가 크다" 
+								: (b-a)+"만큼 b가 크다"	;
+		System.out.println(s);
 	}
 
 }
