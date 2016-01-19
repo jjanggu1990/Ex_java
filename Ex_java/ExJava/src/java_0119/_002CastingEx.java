@@ -3,6 +3,16 @@ package java_0119;
 class _002CastingEx {
 	public static void main (String [] args){
 		
+		
+		double d = 100;
+		int i = 100;
+		
+		double d2 = d+i;
+				
+		System.out.println(d);//100.0
+		System.out.println(i);//100
+		System.out.println(d2);//200.0
+
 	}
 
 }
