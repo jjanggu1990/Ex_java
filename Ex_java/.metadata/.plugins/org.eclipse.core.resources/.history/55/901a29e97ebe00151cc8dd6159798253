@@ -1,0 +1,35 @@
+package java_0119;
+
+class _001DataTypeEx {
+	int c;
+	public static void main(String [] args){
+		//변수 : 하나의 값을 저장하는 공간(데이터 값을 바꿀 수 있음)
+		//선언 : type 변수명;
+		//저장 : 변수명 = 값;
+		//선언과 저장을 한번에 가능
+		// == 같다, != 같지 않다.
+		
+		boolean b = true;
+		System.out.println(b);
+		System.out.println("b");
+		
+		char c = 'A';
+		char c1 = (char)(c+1);
+		System.out.println(c);
+		System.out.println(c1);
+		
+		
+		int i = 10;
+		//접미사 L을 붙이면 long 타입이라고 명시 하는 것(대소문자 안가림)
+		long i_2 = 10L;
+		
+		
+		double d = 3.14;
+		//접미사 f 를 붙여서 float 형이라고 명시해줘야 함
+		float f = 3.14F;
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,16 @@
+package java_0119;
+
+class _001DataTypeEx {
+	int c;
+	public static void main(String [] args){
+		int a;
+		double b;
+		new _001DataTypeEx();
+		
+	}
+	
+	_001DataTypeEx(){
+		System.out.println("asdf"+c);
+	}
+
+}
