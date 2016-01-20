@@ -86,13 +86,14 @@ class _002ForEx {
 			}
 		}
 		System.out.println();
+		
 		for(i=0; i<=n; i+=2){
 			System.out.print(i+" ");
 		}
 		System.out.println();
+		
 		for(i=0; i<=(n/2);i++){
 			System.out.print(i*2+" ");
 		}
-		
 	}
 }
