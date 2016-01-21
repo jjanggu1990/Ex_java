@@ -134,7 +134,9 @@ class _003ArrayEx {
 		/*
 		 * 배열 복사
 		 * System.arraycopy(원배열, 시작위치(int), 복사할배열, 시작위치(int), 복사갯수(int))
-		 * 
+		 * arraycopy 메소드 사용시 주의사항
+		 * 인덱스를 주의해서 사용해야 함.
+		 * 시작위치와 복사 갯수에 특별히 주의 요망
 		 */
 		System.out.println("\n\n배열 복사");
 		byte ar1 [] = {11,22,33,44,55};

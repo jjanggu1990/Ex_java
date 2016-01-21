@@ -1,4 +1,7 @@
 package java_0120;
+
+import java.util.logging.Logger;
+
 class ArrayEx04 { 
 	public static void main(String[] args) 
 	{ 
